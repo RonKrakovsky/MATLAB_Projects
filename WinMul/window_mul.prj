@@ -18,10 +18,10 @@
     <param.hdl.BuildDirectory>option.hdl.ProjectDirectory</param.hdl.BuildDirectory>
     <param.hdl.BuildSpecifiedDirectory />
     <param.fixptconv.InstrumentedMexFile>${PROJECT_ROOT}\codegen\wmhdlc\fixpt\wmhdlc_float_mex.mexw64</param.fixptconv.InstrumentedMexFile>
-    <param.fixptconv.InstrumentedBuildChecksum>1192202340</param.fixptconv.InstrumentedBuildChecksum>
+    <param.fixptconv.InstrumentedBuildChecksum>595333211</param.fixptconv.InstrumentedBuildChecksum>
     <param.fixptconv.ShowCoverage>true</param.fixptconv.ShowCoverage>
-    <param.fixptconv.FixedPointValidationChecksum>720576157</param.fixptconv.FixedPointValidationChecksum>
-    <param.fixptconv.FixedPointSourceCodeChecksum>1164507950</param.fixptconv.FixedPointSourceCodeChecksum>
+    <param.fixptconv.FixedPointValidationChecksum>3509232078</param.fixptconv.FixedPointValidationChecksum>
+    <param.fixptconv.FixedPointSourceCodeChecksum>2946803494</param.fixptconv.FixedPointSourceCodeChecksum>
     <param.fixptconv.FixedPointStaticAnalysisChecksum />
     <param.fixptconv.DefaultTestFile>${PROJECT_ROOT}\wmhdlc_tb.m</param.fixptconv.DefaultTestFile>
     <param.fixptconv.ExcludedFixedPointVerificationFiles />
@@ -137,12 +137,12 @@
     <param.fixptconv.StaticAnalysisTimeout />
     <param.fixptconv.StaticAnalysisGlobalRangesOnly>false</param.fixptconv.StaticAnalysisGlobalRangesOnly>
     <var.lastFixedPointAction>option.fixedPointAction.convert</var.lastFixedPointAction>
-    <var.lastSimContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;C:\projects\Matlab_Projects\wmhdlc_tb.m&lt;/file&gt;&lt;/testFiles&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastSimContext>
+    <var.lastSimContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;C:\projects\Matlab_Projects\WinMul\wmhdlc_tb.m&lt;/file&gt;&lt;/testFiles&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastSimContext>
     <var.lastVerifyContext />
-    <param.fpDataRoot>C:\projects\Matlab_Projects\codegen\wmhdlc\fixpt/guiFpReport.mat</param.fpDataRoot>
+    <param.fpDataRoot>C:\projects\Matlab_Projects\WinMul\codegen\wmhdlc\fixpt/guiFpReport.mat</param.fpDataRoot>
     <param.fpUserFileChecksum />
-    <var.snapshotChecksum>3441472124</var.snapshotChecksum>
-    <param.fpLastConvertChecksum>1192202340</param.fpLastConvertChecksum>
+    <var.snapshotChecksum>1714634849</var.snapshotChecksum>
+    <param.fpLastConvertChecksum>595333211</param.fpLastConvertChecksum>
     <var.FixedPointAnalysisMode>option.FixedPointAnalysisMode.Sim</var.FixedPointAnalysisMode>
     <param.FixedPointUseDesignRanges>false</param.FixedPointUseDesignRanges>
     <param.hdl.Workflow>option.workflow.GenericAsicFpga</param.hdl.Workflow>
@@ -163,7 +163,7 @@
     <param.hdl.TargetInterface>
       <param.hdl.TargetInterface />
     </param.hdl.TargetInterface>
-    <param.hdl.TargetLanguage />
+    <param.hdl.TargetLanguage>option.hdl.VHDL</param.hdl.TargetLanguage>
     <param.hdl.CheckConformance>false</param.hdl.CheckConformance>
     <param.hdl.LaunchConformanceReport>false</param.hdl.LaunchConformanceReport>
     <param.hdl.GenerateHDLCode>true</param.hdl.GenerateHDLCode>
@@ -321,7 +321,7 @@
     <param.isHDLVerifierInstalled>true</param.isHDLVerifierInstalled>
     <param.hdl.GenerateHDLTestBench>false</param.hdl.GenerateHDLTestBench>
     <param.hdl.SimulateGeneratedCode>false</param.hdl.SimulateGeneratedCode>
-    <param.hdl.SimulationTool>No simulation tool available on system path</param.hdl.SimulationTool>
+    <param.hdl.SimulationTool>ModelSim</param.hdl.SimulationTool>
     <param.hdl.TestBenchPostfix>_tb</param.hdl.TestBenchPostfix>
     <param.hdl.ForceClock>true</param.hdl.ForceClock>
     <param.hdl.ClockHighTime>5</param.hdl.ClockHighTime>
@@ -613,7 +613,7 @@
       <param.hdl.BitstreamBuildMode />
     </unset>
     <fileset.entrypoints>
-      <file custom-data-expanded="true" value="${PROJECT_ROOT}\wmhdlc.m">
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\wmhdlc.m">
         <Inputs fileName="wmhdlc.m" functionName="wmhdlc">
           <Input Name="x_in">
             <Class>double</Class>
